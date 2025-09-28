@@ -1,0 +1,4 @@
+curl -v -X POST https://api.line.me/v2/bot/message/broadcast ^
+-H "Content-Type: application/json" ^
+-H "Authorization: Bearer qQew0YRCBYTk40pyKH+SkchqkfiM5ItZnxC1FGOl+NB7FyXB0nqiC5lEXMTztKEQd7gu9N4m2aOSwYASGFcJrTpqlMhF/HdbD7f3CZashSmmNbvj6miTO1Ohmv9qp54GxtUIBQnDBRoxJQyDQWC44AdB04t89/1O/w1cDnyilFU=" ^
+-d "@broadcast.json"

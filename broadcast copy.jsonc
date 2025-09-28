@@ -1,0 +1,67 @@
+{
+  "messages": [                         // กล่องรวมข้อความที่ส่ง (array)
+    {
+      "type": "flex",                   // บอกว่าเป็น Flex Message
+      "altText": "Carousel Example",    // ข้อความ fallback (เวลา client เปิด Flex ไม่ได้)
+      "contents": {                     // เนื้อหา Flex Message จริง ๆ
+        "type": "carousel",             // Flex แบบ Carousel (มีหลาย bubble เลื่อนซ้ายขวาได้)
+        "contents": [                   // array ของ bubble แต่ละอัน
+          {
+            "type": "bubble",           // bubble อันแรก
+            "body": {                   // ส่วน body ของ bubble
+              "type": "box",            // box ใช้จัด layout
+              "layout": "vertical",     // เรียงลูกแนวตั้ง
+              "contents": [             // สิ่งที่จะอยู่ใน box
+                {
+                  "type": "image",      // รูปภาพ
+                  "url": "https://github.com/.../Artboard%201@2x-8.png?raw=true", 
+                  "size": "full",       // ขยายเต็ม
+                  "aspectMode": "cover",// จัดให้รูป cover กรอบ
+                  "aspectRatio": "2:4", // สัดส่วนรูป
+                  "gravity": "top"      // ชิดด้านบน
+                }
+              ],
+              "paddingAll": "0px"       // margin ด้านในเป็น 0
+            }
+          },
+          {
+            "type": "bubble",           // bubble อันที่สอง
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://github.com/.../Asset%203iv.png?raw=true",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top"
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          },
+          {
+            "type": "bubble",           // bubble อันที่สาม
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://github.com/.../Artboard%201@2x-8.png?raw=true",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top"
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

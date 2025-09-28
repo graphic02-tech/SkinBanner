@@ -1,0 +1,86 @@
+{
+  "messages": [
+    {
+      "type": "flex",
+      "altText": "Carousel Example",
+      "contents": {
+        "type": "carousel",
+        "contents": [
+          {
+            "type": "bubble",
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://github.com/graphic02-tech/SkinBanner/blob/main/%E0%B8%A0%E0%B8%B2%E0%B8%9EBANNER/Artboard%201@2x-8.png?raw=true",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top"
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          },
+          {
+            "type": "bubble",
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://github.com/graphic02-tech/SkinBanner/blob/main/%E0%B8%A0%E0%B8%B2%E0%B8%9EBANNER/Asset%203iv.png?raw=true",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top"
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          },
+          {
+            "type": "bubble",
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://github.com/graphic02-tech/SkinBanner/blob/main/%E0%B8%A0%E0%B8%B2%E0%B8%9EBANNER/Artboard%201@2x-8.png?raw=true",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top"
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          },
+          {
+            "type": "bubble",
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "image",
+                  "url": "https://example.com/animated.gif",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "2:4",
+                  "gravity": "top",
+                  "animated": true
+                }
+              ],
+              "paddingAll": "0px"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
